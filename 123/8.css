@@ -1,0 +1,80 @@
+.ul {
+    width: 100%;
+    background-color: brown;
+
+    top: 0;
+    display: flex;
+    justify-content: center;
+}
+
+.li {
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    flex-direction: row;
+    width: 100px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+
+
+
+.li:hover {
+    cursor: pointer;
+    text-decoration: underline;
+
+}
+
+.p {
+    color: white;
+    display: flex;
+    align-items: center;
+    font-size: 20px;
+}
+
+.ppp {
+    display: none;
+    color: white;
+    position: fixed;
+}
+
+.ppp-input {
+    display: none;
+    position: fixed;
+}
+
+@media(max-width:600px) {
+    .p {
+        text-align: center;
+    }
+
+    .li {
+        display: none;
+    }
+
+    .ppp {
+        display: flex;
+        justify-content: flex-start;
+        text-align: left;
+
+
+    }
+
+
+
+    .ppp:hover .ppp-input {
+        display: flex;
+        cursor: pointer;
+        width: 100px;
+        height: 100px;
+        background-color: brown;
+
+    }
+}
+
+* {
+    padding: 0;
+    margin: 0;
+
+}

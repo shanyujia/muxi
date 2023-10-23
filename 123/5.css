@@ -1,0 +1,12 @@
+.image {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    border: 5px solid transparent;
+    transition: border-color 1s ease;
+}
+
+.image:hover {
+    border-color: aqua;
+
+}

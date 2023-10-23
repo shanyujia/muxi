@@ -1,0 +1,48 @@
+.square {
+
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 200px;
+    height: 200px;
+    border: 2px dashed blue
+}
+
+.jiahao {
+
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 50px;
+}
+
+
+.triangle {
+    display: inline-block;
+    margin-left: 300px;
+    width: 0;
+    height: 200px;
+    border-top: 300px solid yellow;
+    border-right: 200px solid transparent;
+    border-left: 200px solid transparent;
+}
+
+
+
+
+
+
+.banyuan {
+    display: inline-block;
+    position: absolute;
+    border-radius: 100px 100px 0 0;
+    width: 200px;
+    height: 100px;
+    margin-left: 100px;
+
+
+    background-color: green;
+
+
+}
