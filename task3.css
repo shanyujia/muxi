@@ -1,0 +1,39 @@
+.float1 {
+    background-color: gray;
+    width: 300px;
+}
+
+.box {
+    width: 300px;
+    border: 2px solid black;
+    clear: left;
+}
+
+.float2 {
+    background-color: green;
+    float: left;
+    width: 100px;
+    height: 100px;
+}
+
+.float3 {
+    float: left;
+    background-color: red;
+    width: 100px;
+    height: 200px;
+}
+
+.float4 {
+    background-color: pink;
+    float: left;
+    width: 100px;
+    height: 100px;
+
+}
+
+.float5 {
+    width: 300px;
+    background-color: yellow;
+
+    clear: both
+}
