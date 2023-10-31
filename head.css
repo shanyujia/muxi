@@ -49,6 +49,7 @@
 .search .search-content {
     display: flex;
     width: 100%;
+    height: 100%;
 
 }
 
@@ -56,11 +57,41 @@
     flex: 1;
     background-color: transparent;
     overflow: hidden;
-
-    line-height: 20px;
     margin: 0;
     padding: 0;
     width: 100%;
     height: 100%;
+    outline: none;
+    border: none;
 
+}
+
+.right-head {
+    margin-left: 10px;
+    display: flex;
+
+
+}
+
+.right-head.picture1 {
+    display: flex;
+    flex-direction: row;
+    flex: 1;
+}
+
+.right-head .picture1 img {
+    height: 50px;
+    width: 50px;
+    padding-right: 10px;
+
+
+
+}
+
+.right-head.button {
+    background-color: green;
+    text-decoration-color: white;
+    border: transparent 2px;
+    display: flex;
+    justify-content: center;
 }
