@@ -89,9 +89,59 @@
 }
 
 .right-head.button {
-    background-color: green;
-    text-decoration-color: white;
+
     border: transparent 2px;
     display: flex;
     justify-content: center;
+    align-items: center;
+    width: 60px;
+
+}
+
+.roll .picture2 {
+    border-radius: 6px;
+    overflow: hidden;
+    position: relative;
+
+}
+
+.picture2 img {
+    width: 100%;
+}
+
+.roll .tool li {
+    width: 10px;
+    height: 10px;
+    margin: 4px;
+    border-bottom: 50%;
+    cursor: pointer;
+    background-color: #fff6;
+}
+
+.roll .tool li .active {
+    width: 14px;
+    height: 14px;
+    margin: 1px;
+    background-color: #fff;
+}
+
+
+
+.circle-border.circle {
+
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    border: 6px solid green;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.circle-border.circle span {
+    font-size: 30px;
+    color: green;
+    font-weight: bold;
+
 }
