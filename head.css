@@ -8,6 +8,7 @@
 
 .nav1 {
     display: flex;
+    list-style: none;
 }
 
 .nav1 .nav2 {
@@ -16,6 +17,7 @@
     align-items: center;
     margin-right: 15px;
     font-size: 20px;
+    list-style: none;
 }
 
 .nav1 .nav2 :hover {
@@ -125,9 +127,18 @@
     background-color: #fff;
 }
 
+.circle-border {
+    display: flex;
+
+    cursor: pointer;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+}
 
 
-.circle-border.circle {
+.circle-border .circle {
 
     width: 100px;
     height: 100px;
@@ -136,12 +147,25 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    margin: 20px;
+
+
+
 
 }
 
-.circle-border.circle span {
+.circle-border .circle span {
     font-size: 30px;
     color: green;
     font-weight: bold;
+    display: flex;
+
+
+}
+
+.circle-border :hover {
+
+    background-color: green;
+    color: white;
 
 }
