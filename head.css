@@ -28,7 +28,6 @@
 .search {
     flex: 1;
     height: 64px;
-
     border-radius: 8px;
     border: 2px solid red;
     display: flex;
@@ -39,20 +38,16 @@
 .search.search-button {
     position: absolute;
     top: 4px;
-
     display: flex;
     align-items: center;
     justify-content: center;
-
     cursor: pointer;
-
 }
 
 .search .search-content {
     display: flex;
     width: 100%;
     height: 100%;
-
 }
 
 .search-content .search-input {
@@ -65,14 +60,19 @@
     height: 100%;
     outline: none;
     border: none;
-
 }
 
 .right-head {
     margin-left: 10px;
     display: flex;
+}
 
-
+.text2 {
+    display: flex;
+    color: #fff;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
 }
 
 .right-head.picture1 {
@@ -84,10 +84,7 @@
 .right-head .picture1 img {
     height: 50px;
     width: 50px;
-    padding-right: 10px;
-
-
-
+    padding-right: 10px
 }
 
 .right-head.button {
@@ -97,14 +94,12 @@
     justify-content: center;
     align-items: center;
     width: 60px;
-
 }
 
 .roll .picture2 {
     border-radius: 6px;
     overflow: hidden;
     position: relative;
-
 }
 
 .picture2 img {
@@ -129,7 +124,6 @@
 
 .circle-border {
     display: flex;
-
     cursor: pointer;
     position: relative;
     justify-content: center;
@@ -139,33 +133,90 @@
 
 
 .circle-border .circle {
-
     width: 100px;
     height: 100px;
     border-radius: 50%;
-    border: 6px solid green;
+    border: 3px solid green;
     display: flex;
     justify-content: center;
     align-items: center;
-    margin: 20px;
-
-
-
-
+    margin: 30px;
+    color: green;
 }
 
 .circle-border .circle span {
     font-size: 30px;
-    color: green;
     font-weight: bold;
     display: flex;
-
-
 }
 
 .circle-border :hover {
-
     background-color: green;
     color: white;
+}
 
+.all {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 800px;
+    margin: auto;
+}
+
+.all .list {
+    cursor: pointer;
+    padding: 30px;
+    margin: auto;
+}
+
+.list :hover {
+    color: red;
+    text-decoration: underline;
+}
+
+.text1 {
+    font-size: 12px;
+}
+
+
+
+.text-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid green;
+    padding: 20px;
+    width: 100px;
+    height: 100px;
+}
+
+.number {
+    display: flex;
+    justify-self: center;
+    align-items: center;
+    color: red;
+    text-decoration: underline;
+    font-size: 50px;
+    width: 100px;
+    height: 100px;
+    border: 2px transparent;
+}
+
+.box1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.box2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.text-box :hover {
+    background-color: green;
+    color: #fff;
+    cursor: pointer;
 }
