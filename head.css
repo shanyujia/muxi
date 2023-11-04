@@ -197,9 +197,10 @@
     color: red;
     text-decoration: underline;
     font-size: 50px;
-    width: 100px;
+    width: 120px;
     height: 100px;
     border: 2px transparent;
+    padding-left: 20px;
 }
 
 .box1 {
