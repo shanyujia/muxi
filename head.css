@@ -87,14 +87,21 @@
     padding-right: 10px
 }
 
-.right-head.button {
+.right-head .button {
 
     border: transparent 2px;
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 60px;
+    width: 100px;
+    background-color: green;
+    vertical-align: middle;
+    color: #fff;
+    list-style: none;
+    cursor: pointer;
 }
+
+
 
 .roll .picture2 {
     border-radius: 6px;
@@ -106,10 +113,15 @@
     width: 100%;
 }
 
+.roll {
+    margin: auto;
+    width: 1000px;
+}
+
 .roll .tool li {
     width: 10px;
     height: 10px;
-    margin: 4px;
+
     border-bottom: 50%;
     cursor: pointer;
     background-color: #fff6;
@@ -118,7 +130,7 @@
 .roll .tool li .active {
     width: 14px;
     height: 14px;
-    margin: 1px;
+
     background-color: #fff;
 }
 
@@ -128,7 +140,10 @@
     position: relative;
     justify-content: center;
     align-items: center;
-    margin: 10px;
+
+    width: 1000px;
+    background-color: #fff;
+    margin: auto;
 }
 
 
@@ -159,8 +174,10 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    width: 800px;
+    width: 1000px;
     margin: auto;
+    background-color: #fff;
+
 }
 
 .all .list {
@@ -172,12 +189,19 @@
 .list :hover {
     color: red;
     text-decoration: underline;
+    list-style: none;
+    text-decoration: none;
 }
 
 .text1 {
     font-size: 12px;
 }
 
+.wenzi {
+    margin: auto;
+    background-color: #fff;
+    width: 1000px;
+}
 
 
 .text-box {
@@ -201,6 +225,12 @@
     height: 100px;
     border: 2px transparent;
     padding-left: 20px;
+}
+
+.bigbox {
+    background-color: #fff;
+    width: 1000px;
+    margin: auto;
 }
 
 .box1 {
@@ -233,10 +263,16 @@
     justify-content: center;
 }
 
+.wenzi1 {
+    background-color: #fff;
+    margin: auto;
+    width: 1000px;
+}
+
 .box3 {
     display: flex;
     flex-direction: column;
-    padding: 30px;
+    padding: 25px;
     align-items: center;
     justify-content: center;
     margin: auto;
@@ -248,6 +284,7 @@
     height: 30px;
     justify-content: center;
     align-items: center;
+    opacity: 0;
 
 }
 
@@ -256,9 +293,21 @@
 
 }
 
-.redbox:hover {
+.redbox1 {
+    background-color: #fff;
+    margin: auto;
+    width: 1000px;
+}
+
+.box3:hover .redbox {
     background-color: red;
-    animation-fill-mode: forwards;
+
+}
+
+.box3:hover .rabbit {
+    animation: forwards;
+    animation-duration: 1s;
+    animation-name: rabbit;
 }
 
 
@@ -275,4 +324,9 @@
 .last {
     width: 100%;
     height: 200px;
+}
+
+.bigbigbox {
+    background-color: #d3d3d3;
+
 }
