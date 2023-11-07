@@ -28,21 +28,23 @@
 .search {
 
     height: 64px;
-    border-radius: 8px;
+
     border: 2px solid red;
     display: flex;
     align-items: center;
-    position: relative;
+    border-radius: 2px;
     width: 1000px;
+    margin: auto;
 }
 
-.search.search-button {
-    position: absolute;
-    top: 4px;
+.search .search-button {
+
+
     display: flex;
     align-items: center;
     justify-content: center;
     cursor: pointer;
+    height: 100%;
 }
 
 .search .search-content {
@@ -160,7 +162,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    margin: 30px;
+    margin: 70px;
     color: green;
 }
 
@@ -187,7 +189,7 @@
 
 .all .list {
     cursor: pointer;
-    padding: 30px;
+
     margin: auto;
 }
 
@@ -265,6 +267,7 @@
     text-align: center;
     align-items: center;
     justify-content: center;
+
 }
 
 .wenzi1 {
@@ -280,18 +283,18 @@
     align-items: center;
     justify-content: center;
     margin: auto;
+    z-index: 100;
 
 }
 
 .rabbit {
-    display: flex;
+    margin: auto;
     width: 50px;
     height: 30px;
-    justify-content: center;
-    align-items: center;
     opacity: 0;
-
+    z-index: -1;
 }
+
 
 .bigbox1 {
     display: flex;
@@ -313,6 +316,7 @@
 
     animation: rabbit 2s ease;
 }
+
 
 
 @keyframes rabbit {
